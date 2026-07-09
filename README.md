@@ -31,8 +31,8 @@ Unlike traditional sleep-prevention utilities that simulate synthetic hardware e
 ## Installation
 
 1. Go to Releases page
-2. Download "Setup.exe"
-3. Run "Setup.exe"
+2. Download ``Setup.exe``
+3. Run ``Setup.exe``
 4. Yay! :D
 
 ---
@@ -43,6 +43,6 @@ Run the provided `Uninstall.bat` script. The terminates the active memory proces
 
 ---
 
-## Compilation
+## Source Code
 
-Source code will be uploaded in an upcoming update.
+Check ``caffeine.cpp``
