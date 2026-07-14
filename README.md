@@ -12,7 +12,7 @@ Unlike traditional sleep-prevention utilities that simulate synthetic hardware e
 | :--- | :--- | :--- |
 | **CPU Usage** | Intermittent spikes (polling/simulation) | **0.00%** (Strictly event-driven) |
 | **Memory (RAM)** | 12 MB – 50 MB | **~380 KB** |
-| **Executable Size** | 150 KB – 5 MB | **~14 KB** (Standalone Installer) |
+| **Executable Size** | 150 KB – 5 MB | **~18 KB** (Standalone Installer) |
 | **System Wakeups** | Regular intervals (forces CPU wake) | **None** (Passive OS assignment) |
 | **Input Interference** | Risks disrupting macros or focus states | **None** |
 
