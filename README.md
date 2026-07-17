@@ -31,8 +31,8 @@ Unlike traditional sleep-prevention utilities that simulate synthetic hardware e
 ## Installation
 
 1. Go to Releases page
-2. Download "Setup.exe"
-3. Run "Setup.exe"
+2. Download "Caffeine_Setup.exe" or "Caffeine_Portable"
+3. Run the downloaded file
 4. Yay! :D
 
 ---
@@ -45,4 +45,13 @@ Run the provided `Uninstall.bat` script. The terminates the active memory proces
 
 ## Compilation
 
-Source code will be uploaded in an upcoming update.
+Run these commands in your terminal (MinGW):
+
+```bash
+# Compile Main Application
+windres resource.rc -O coff -o resource.res
+g++ caffeine.cpp resource.res -o caffeine.exe -mwindows
+
+# Compile Installer
+windres setup_resource.rc -O coff -o setup_resource.res
+g++ installer.cpp setup_resource.res -o installer.exe
